@@ -1,0 +1,175 @@
+html, body{
+	width: 100%;
+	margin: 0;
+    padding: 0;
+}
+body{
+    color: #444444;
+    font-size: 14px;
+}
+ul{
+	margin: 0;
+	padding:0;
+}
+li{
+	list-style-type: none;
+}
+#header{
+	background: white;
+	height: 105px;
+	width: 100%;
+	overflow: inherit;
+    /*border-bottom: 1px solid #AAAAAA;*/
+    position: fixed;
+    z-index: 100;
+    -webkit-box-shadow: 0px 0px 8px 2px #9d9d9d;
+   -moz-box-shadow: 0px 0px 8px 2px #9d9d9d;
+    box-shadow: 0px 0px 8px 2px #9d9d9d;
+}
+
+#logo, #logo a, #logo img{
+	margin:0 auto; 
+	width: 105; 
+	height: 71px; 
+	border: 0;
+	display: block;;
+}
+#nav li#logo a{
+	width: 105px; 	
+}
+#nav li#logo a:hover, #nav li#logo a.current{
+	border: none;
+}
+#nav{
+	font-family: times;
+    margin: 1% auto 0 auto;
+    width: 450px;
+}
+	#nav li{
+		float: left;
+	    text-align: center;
+	    width: 150px;
+	    margin: 28px 0;
+	    font-size: 15px;
+	}
+		#nav li a {
+			color: #6A6A6A;
+		    display: block;
+		    line-height: 1;
+		    margin: 0 auto;
+		    text-decoration: none;
+		    text-transform: uppercase;
+		    width: 86px;
+		    padding-bottom: 5px;
+		    transition: all 1s ease-in-out;
+			-webkit-transition: all 1s ease-in-out;
+			-moz-transition: all 1s ease-in-out;
+		}
+		#nav li a.current{
+			font-weight: bold;
+		}
+		#nav li a:hover, #nav li a.current{
+			border-bottom: 1px solid black;
+		}
+
+.section{
+	height: 89%;
+	width: 100%;
+	padding-top: 7%;
+	position: relative;
+}
+
+/* Portfolio */
+#portfolio{
+	position: relative;
+	padding-top: 30px;
+}
+	#portfolioTop{
+		color: #6d6d6d;
+	    width: 23%;
+	    margin: 0 auto;		
+	    text-align: center;
+ 	   text-transform: uppercase;
+	}
+	#portFolioTitle{
+	    font-size: 18px;
+	    margin: 0 auto 9px;
+   		padding-bottom: 3px;
+	 	border-bottom: 1px solid #6d6d6d;
+   	}
+   	#portFolioSub{
+   		font-size: 11px;
+
+   	}
+	#portfolioList{
+		width: 1000px;
+		height: inherit;
+		margin: 5px auto 0 auto;
+	}
+		#portfolioList li{
+			float: left;
+		    height: 120px;
+		    margin: 5px 23px;
+		    opacity: 0.7;
+		    width: 200px;
+		}
+		#portfolioList li:hover{
+			opacity: 1;
+		}
+
+#companyDesc{
+	width: 30%;
+	float: left;
+}
+#companyHidden{
+	display: none;
+
+}
+/* Home */
+#home{
+	background: url("../images/about.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+	#homeDesc{
+	    margin: 0 auto;
+	    padding-top: 50px;
+	    text-align: center;
+	    width: 600px;
+	}
+
+/* Team */
+#team{
+	padding-top: 30px;
+	overflow: hidden;
+}
+#homeDesc, #team ul li{
+	font-family: "Helvetica","arial","sans-serif";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.6em;
+}
+#team ul li{
+	width: 510px;
+	text-align: center;
+	margin: 0px auto 40px;
+}
+#team .name, #company .name{
+	text-transform: uppercase;
+	border-bottom: 1px solid #6A6A6A;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+#contact{
+	margin: 0;
+	padding: 0;
+	background-size: 100%;
+	-moz-background-size: 100%;
+	-webkit-background-size: 100%;
+}
+#contactText{
+ 	height: 110px;
+    margin: -130px 0 0 36%;
+    width: 500px;
+    z-index: 100;	
+    position: absolute;
+}
